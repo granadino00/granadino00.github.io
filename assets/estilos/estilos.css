@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*NAV*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width:100%;
+    color: #E4650E;
+    border-bottom: 3px solid silver;
+}
+
+nav img{
+    height: 5rem;
+}
+
+.enlaces{
+    width: 50%;
+}
+
+.enlaces ul{   
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #E4650E;
+    font-size: 1.3rem;
+}
+
+nav div,img{
+    margin: 0.3rem;
+}
+
+#user{
+    margin-left: 2.3rem;
+}
+
+.formulario button{
+    width: 100%;
+}
