@@ -79,15 +79,19 @@ article{
 
 .general{
     width: 80%;
-    margin: auto;
+    margin: auto;    
 }
+
+/*GALERIAS*/
 
 #galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;   
     width: 100%; 
-    align-items: center;  
+    align-items: center; 
+    margin-bottom: 5rem; 
+    margin-top: 2rem;
 }
 
 #galeria div{
@@ -111,4 +115,48 @@ article{
     margin-bottom: 0px;
     margin-top: 0px;
     padding-right: 0.2rem;
+}
+
+/*Tabla*/
+
+#tablas{
+    margin-top: 2rem;
+    
+}
+
+table{
+    display: block;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+th,td{
+    width: 16.5%;
+    text-align: center;
+    border: 3px solid silver;
+}
+
+th{
+    background-color: black;
+    color: lightyellow;
+    padding: 0.5rem 0px;    
+}
+
+td{
+    font-weight: bolder;
+}
+
+.par{
+    background-color: cadetblue;
+}
+
+.impar{
+    background-color: lightcoral;
+}
+
+#tablas img{
+    width: 100%;
+    display: block;
+    margin: 0px;
+    object-fit: cover;
 }
