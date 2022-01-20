@@ -7,7 +7,7 @@ body{
 
 /*NAV*/
 
-nav{
+header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -21,7 +21,7 @@ nav{
     border-bottom: 3px solid silver;
 }
 
-nav img{
+header img{
     height: 2.5rem;
 }
 
@@ -42,12 +42,15 @@ nav a{
     font-size: 1.3rem;
 }
 
-nav div,img{
+header nav,img{
     margin: 0.3rem;
 }
 
 #user{
     margin-left: 2.28rem;
+}
+.formulario{
+    margin: 0.5rem;
 }
 
 .formulario button{
@@ -67,13 +70,13 @@ nav div,img{
     color: #E4650E;
 }
 
-/*ARTICLE Y SECTION*/
+/*MAIN Y SECTION*/
 
-h1{
+h2{
     text-align: center;
 }
 
-article{
+main{
     margin-top: 10rem;
 }
 
@@ -94,9 +97,10 @@ article{
     margin-top: 2rem;
 }
 
-#galeria div{
+#galeria figure{
     width: 15%;    
     min-width: 300px; 
+    margin: 0px;
 }
 
 #galeria img{
@@ -107,10 +111,11 @@ article{
     margin: 0px;
 }
 
-#galeria p{
+#galeria figcaption{
     text-align: center;
+    box-sizing: border-box;
     background-color: black;
-    width: 99%;
+    width: 100%;
     color: #E4650E;
     margin-bottom: 0px;
     margin-top: 0px;
