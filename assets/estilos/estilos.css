@@ -224,4 +224,5 @@ td{
     display: block;
     margin: 0px;
     object-fit: cover;
+    min-width: 360px;
 }
