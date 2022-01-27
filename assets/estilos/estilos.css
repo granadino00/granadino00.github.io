@@ -76,6 +76,7 @@ header nav,img{
     background-color: black;
     color: silver;
     transition: 0.3s;
+    cursor: url("../cursor/crysknife-custom-cursor2.png"), auto;
 }
 
 .formulario input{
