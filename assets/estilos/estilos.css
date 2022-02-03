@@ -3,7 +3,6 @@ body{
     font-family: 'Orbitron', sans-serif;
     background-image: url(../img/pattern/sand1.jpeg);
     background-repeat: repeat;    
-    cursor: url("../cursor/crysknife-custom-cursor.png"), auto;
 }
 
 /*NAV*/
@@ -46,7 +45,6 @@ nav a{
 nav a:hover{
     color: silver;
     transition: 0.3s;
-    cursor: url("../cursor/crysknife-custom-cursor2.png"), auto;
 }
 
 header nav,img{
@@ -76,7 +74,6 @@ header nav,img{
     background-color: black;
     color: silver;
     transition: 0.3s;
-    cursor: url("../cursor/crysknife-custom-cursor2.png"), auto;
 }
 
 .formulario input{
@@ -214,12 +211,16 @@ td{
     font-weight: bolder;
 }
 
-.par{
+tbody>tr:nth-child(2n){
     background-color: cadetblue;
 }
 
-.impar{
+tbody>tr:nth-child(2n+1){
     background-color: lightcoral;
+}
+
+td:not(.foto_tabla){
+    padding: 0.4rem;
 }
 
 #tablas img{
